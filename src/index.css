@@ -1,0 +1,47 @@
+:root {
+  --bnd-green: #1d8d5c;
+  --bnd-green-dark: #0e4b3a;
+  --bnd-green-soft: #dfeee6;
+  --bnd-yellow: #d8b135;
+  --bnd-red: #c94b43;
+  --bnd-red-soft: #fbe4e0;
+  --bnd-ink: #1a2f2d;
+  --bnd-soft-bg: #edf3ee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bnd-soft-bg);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: linear-gradient(180deg, #f2f5f0 0%, var(--bnd-soft-bg) 100%);
+  color: var(--bnd-ink);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
